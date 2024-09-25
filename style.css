@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    padding: 0px 6px;
+    margin-top: 64px;
+    width: 1916px;
+    height: 122px;
+}
+h1{
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+    margin-top: -30px;
+    margin-left: 77px;
+}
+
+
+.logo img {
+    width: 88px;
+    height: 46px;
+    margin-top: 25px;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color:black;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.nav-links a:hover {
+    color:  #08b2c9;
+}
+
+.yellow-text3:hover{
+    color: green;
+}
+
+.title{
+    background-color:#16212e;
+    height: 707px;
+    width: 1917px;
+    margin-top: -18px;
+}
+.ext1{
+    text-align: left;
+    font-size: xx-large;
+    margin-top: -469px;
+    margin-left: 171px;
+}
+
+.yellow-text{
+    color: yellow;
+}
+
+.ext2{
+    text-align: left;
+    font-size: xx-large;
+    margin-top: 3px;
+    margin-left: 171px;
+}
+
+.yellow-text2{
+    color: yellow;
+}
+
+.yellow-text3{
+    color: red;
+}
+
+.ext3{
+    text-align: left;
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-left: 171px;
+    color: yellow;
+}
+.ext4{
+    text-align: left;
+    font-size: xx-large;
+    margin-top: 0px;
+    margin-left: 171px;
+}
+
+.hunger{
+    border: 2px solid white;
+    background-color:#202A44 ;
+    color: white;
+    border-radius: 4px;
+    width: 120px;
+    height: 37px;
+    margin-top: 15px;
+    margin-left: 171px;
+}
+
+
+.snack{
+    margin-top: -292px;
+    margin-left: 1000px;
+    width: 625px;
+    height: 525px;
+    transform: translateX(0px);
+    animation: floating 3s ease-in-out infinite;
+}
+
+@keyframes floating{
+    0%{
+        transform: translateY(0px);
+    }
+
+    50%{
+        transform: translateY(-50px);
+    }
+
+    100%{
+        transform: translateY(0px);
+    }
+}
