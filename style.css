@@ -28,7 +28,7 @@ h1 {
 
 .logo img {
   width: 88px;
-  height: 46px;
+  height: 63px;
   margin-top: -8px;
 }
 
@@ -50,8 +50,10 @@ h1 {
 }
 
 .nav-links a:hover {
-  color: #055f14;
-  border: 3px solid green;
+  color: red;
+  border: 3px solid rgb(11, 15, 11);
+  background: blanchedalmond;
+  border-radius: 28px;
 }
 
 .yellow-text3:hover {
@@ -61,12 +63,12 @@ h1 {
 .title {
   background-color: #16212e;
   height: 859px;
-  width: 1917px;
+  width: 1916px;
   margin-top: -18px;
 }
 h4 {
-  margin-top: -57px;
-  margin-left: 74px;
+  margin-top: -64px;
+  margin-left: 91px;
   font-size: 54px;
 }
 .ext1 {
@@ -121,7 +123,7 @@ h4 {
 
 .snack {
   margin-top: -292px;
-  margin-left: 1000px;
+  margin-left: 1165px;
   width: 625px;
   height: 525px;
   transform: translateX(0px);
@@ -140,4 +142,190 @@ h4 {
   100% {
     transform: translateY(0px);
   }
+}
+
+.service {
+  width: 1916px;
+  height: 100vh;
+  margin-top: -59px;
+  background-image: url(servicebg.jpg);
+  background-size: cover;
+  background-position: center;
+  /* opacity: 0.20; */
+}
+.s1{
+font-weight: 100px;
+font-size: xx-large;
+margin-top:-908px ;
+margin-left: 20px;
+
+}
+
+.good{
+  color: red;
+}
+
+.ext5{
+  font-size: xx-large;
+  margin-top: 5px;
+  margin-left: 33px;
+  font-weight: 100px;
+}
+
+.serve{
+  color:orange;
+}
+
+.provide{
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 8px;
+  font-weight: 100px;
+  margin-left: 11px;
+}
+button{
+  width: 361px;
+  height: 72px;
+  border-radius: 24px;
+  margin-left:766px ;
+  margin-top: 20px;
+  cursor: pointer;
+   transition: service 0.3s ease;
+   background-color: rgb(97, 187, 223);
+}
+ .provide:hover {
+  color: yellow;
+}
+
+.delivery{
+  border: 3px solid black;
+  width: 450px;
+  height: 403px;
+  margin-top: 54px;
+  margin-left: 723px;
+  background-color: rgb(231, 236, 235);
+}
+.chief{
+  width: 277px;
+    height: 154px;
+    margin-top: 20px;
+    margin-left: 80px;
+    justify-items: center;
+}
+.rj1{
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 95px;
+}
+
+.motive{
+  font-size: larger;
+  font-style: oblique;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+
+.vegetrain{
+  border: 3px solid black;
+  width: 450px;
+  height: 396px;
+  margin-top: -394px;
+  margin-left: 140px;
+  background-color: rgb(231, 236, 235);
+}
+.rj2{
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 69px;
+}
+
+.chief1{
+  width: 277px;
+    height: 154px;
+    margin-top: 19px;
+    margin-left: 80px;
+    justify-items: center;
+}
+
+.quality{
+  border: 3px solid black;
+  width: 450px;
+  height: 403px;
+  margin-top: -398px;
+  margin-left: 1286px;
+  background-color: rgb(231, 236, 235);
+
+}
+
+.matter{
+  width: 237px;
+    height: 167px;
+    margin-top: 3px;
+    margin-left: 80px;
+    justify-items: center;
+}
+
+.rj3{
+  font-size: xx-large;
+  align-items: center;
+  margin-top: 0px;
+  margin-left: 69px;
+}
+
+.motive1{
+  font-size: larger;
+  font-style: oblique;
+  margin-top: 10px;
+  margin-left: 25px;
+}
+
+.pen{
+  margin-top: 25px;
+  margin-left: 25px;
+  width: 150px;
+  height: 150px;
+  
+}
+
+.cap{
+border: 3px solid black;
+
+}
+
+.ink{
+  font-size: xx-large;
+  font-style: normal;
+  margin-top: 3px;
+  margin-left: 25px;
+}
+
+/* .kfclogo{
+  margin-top: 25px;
+  margin-left: 25px;
+} */
+.cfk{
+  width: 278px;
+  height: 230px;
+  margin-top: -100px;
+  margin-left: 184px;
+}
+
+.bk {
+  width: 201px;
+  height: 266px;
+  margin-top: -844px;
+  margin-left: 584px;
+}
+
+.star{
+  width: 25px;
+  height: 25px;
+  margin-top: 25px;
+  margin-left: 25px;
+}
+.logos{
+  margin-left: 25px;
+  margin-top: 25px;
 }
