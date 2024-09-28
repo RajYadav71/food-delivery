@@ -301,11 +301,11 @@ border: 3px solid black;
   margin-left: 25px;
 }
 
-/* .kfclogo{
+/* /* .kfclogo{
   margin-top: 25px;
   margin-left: 25px;
 } */
-.cfk{
+/* .cfk{
   width: 278px;
   height: 230px;
   margin-top: -100px;
@@ -324,8 +324,80 @@ border: 3px solid black;
   height: 25px;
   margin-top: 25px;
   margin-left: 25px;
-}
+} */
 .logos{
-  margin-left: 25px;
-  margin-top: 25px;
+  margin-left: 10px;
+  margin-top: -125px;
+  display: flex;
+}
+.kfclogo{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.cfk{
+  margin-left: 10px;
+  margin-top: 10px;
+  width: 278px;
+  height: 230px;
+}
+
+.bking{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.bk{
+  height: 266px;
+  width: 201px;
+  margin-left: 103px;
+  margin-top: -20px;
+}
+
+.starbucks{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.star {
+  width: 148px;
+  height: 139px;
+  margin-left: 112px;
+  margin-top: 61px;
+}
+
+.dominos{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.domo {
+  width: 174px;
+  height: 156px;
+  margin-top: 53px;
+  margin-left: 134px;
+}
+
+.momos{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.momo{
+  width: 125px;
+  height: 125px;
+  margin-top: 64px;
+  margin-left: 86px;
+}
+
+.md{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.mds {
+  width: 155px;
+  height: 125px;
+  margin-left: 159px;
+  margin-top: 62px;
 }
