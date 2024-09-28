@@ -153,51 +153,50 @@ h4 {
   background-position: center;
   /* opacity: 0.20; */
 }
-.s1{
-font-weight: 100px;
-font-size: xx-large;
-margin-top:-908px ;
-margin-left: 20px;
-
+.s1 {
+  font-weight: 100px;
+  font-size: xx-large;
+  margin-top: -908px;
+  margin-left: 20px;
 }
 
-.good{
+.good {
   color: red;
 }
 
-.ext5{
+.ext5 {
   font-size: xx-large;
   margin-top: 5px;
   margin-left: 33px;
   font-weight: 100px;
 }
 
-.serve{
-  color:orange;
+.serve {
+  color: orange;
 }
 
-.provide{
+.provide {
   font-size: xx-large;
   align-items: center;
   margin-top: 8px;
   font-weight: 100px;
   margin-left: 11px;
 }
-button{
+button {
   width: 361px;
   height: 72px;
   border-radius: 24px;
-  margin-left:766px ;
+  margin-left: 766px;
   margin-top: 20px;
   cursor: pointer;
-   transition: service 0.3s ease;
-   background-color: rgb(97, 187, 223);
+  transition: service 0.3s ease;
+  background-color: rgb(97, 187, 223);
 }
- .provide:hover {
+.provide:hover {
   color: yellow;
 }
 
-.delivery{
+.delivery {
   border: 3px solid black;
   width: 450px;
   height: 403px;
@@ -205,28 +204,28 @@ button{
   margin-left: 723px;
   background-color: rgb(231, 236, 235);
 }
-.chief{
+.chief {
   width: 277px;
-    height: 154px;
-    margin-top: 20px;
-    margin-left: 80px;
-    justify-items: center;
+  height: 154px;
+  margin-top: 20px;
+  margin-left: 80px;
+  justify-items: center;
 }
-.rj1{
+.rj1 {
   font-size: xx-large;
   align-items: center;
   margin-top: 0px;
   margin-left: 95px;
 }
 
-.motive{
+.motive {
   font-size: larger;
   font-style: oblique;
   margin-top: 25px;
   margin-left: 25px;
 }
 
-.vegetrain{
+.vegetrain {
   border: 3px solid black;
   width: 450px;
   height: 396px;
@@ -234,67 +233,64 @@ button{
   margin-left: 140px;
   background-color: rgb(231, 236, 235);
 }
-.rj2{
+.rj2 {
   font-size: xx-large;
   align-items: center;
   margin-top: 0px;
   margin-left: 69px;
 }
 
-.chief1{
+.chief1 {
   width: 277px;
-    height: 154px;
-    margin-top: 19px;
-    margin-left: 80px;
-    justify-items: center;
+  height: 154px;
+  margin-top: 19px;
+  margin-left: 80px;
+  justify-items: center;
 }
 
-.quality{
+.quality {
   border: 3px solid black;
   width: 450px;
   height: 403px;
   margin-top: -398px;
   margin-left: 1286px;
   background-color: rgb(231, 236, 235);
-
 }
 
-.matter{
+.matter {
   width: 237px;
-    height: 167px;
-    margin-top: 3px;
-    margin-left: 80px;
-    justify-items: center;
+  height: 167px;
+  margin-top: 3px;
+  margin-left: 80px;
+  justify-items: center;
 }
 
-.rj3{
+.rj3 {
   font-size: xx-large;
   align-items: center;
   margin-top: 0px;
   margin-left: 69px;
 }
 
-.motive1{
+.motive1 {
   font-size: larger;
   font-style: oblique;
   margin-top: 10px;
   margin-left: 25px;
 }
 
-.pen{
+.pen {
   margin-top: 25px;
   margin-left: 25px;
   width: 150px;
   height: 150px;
-  
 }
 
-.cap{
-border: 3px solid black;
-
+.cap {
+  border: 3px solid black;
 }
 
-.ink{
+.ink {
   font-size: xx-large;
   font-style: normal;
   margin-top: 3px;
@@ -325,36 +321,36 @@ border: 3px solid black;
   margin-top: 25px;
   margin-left: 25px;
 } */
-.logos{
+.logos {
   margin-left: 10px;
   margin-top: -125px;
   display: flex;
 }
-.kfclogo{
+.kfclogo {
   margin-left: 10px;
   margin-top: 10px;
 }
 
-.cfk{
+.cfk {
   margin-left: 10px;
   margin-top: 10px;
   width: 278px;
   height: 230px;
 }
 
-.bking{
+.bking {
   margin-left: 10px;
   margin-top: 10px;
 }
 
-.bk{
+.bk {
   height: 266px;
   width: 201px;
   margin-left: 103px;
   margin-top: -20px;
 }
 
-.starbucks{
+.starbucks {
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -366,7 +362,7 @@ border: 3px solid black;
   margin-top: 61px;
 }
 
-.dominos{
+.dominos {
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -378,19 +374,19 @@ border: 3px solid black;
   margin-left: 134px;
 }
 
-.momos{
+.momos {
   margin-left: 10px;
   margin-top: 10px;
 }
 
-.momo{
+.momo {
   width: 125px;
   height: 125px;
   margin-top: 64px;
   margin-left: 86px;
 }
 
-.md{
+.md {
   margin-left: 10px;
   margin-top: 10px;
 }
@@ -400,4 +396,83 @@ border: 3px solid black;
   height: 125px;
   margin-left: 159px;
   margin-top: 62px;
+}
+
+.abt {
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.bgpage {
+  width: 1940px;
+  height: 928px;
+  margin-left: -1790px;
+  margin-top: 213px;
+}
+
+.heading{
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.header{
+  font-size: xx-large;
+  text-align: center;
+  margin-left: -1355px;
+  margin-top: -875px;
+  color: black;
+  font-weight: 100;
+  font-style: oblique;
+}
+
+.header2{
+  margin-left: -1265px;
+  margin-top: 62px;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  font-weight: 100;
+  font-style: oblique;
+}
+.header3{
+  margin-left: -1265px;
+  margin-top: 62px;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  font-weight: 100;
+  font-style: oblique; 
+}
+
+.header4{
+  margin-left: -1265px;
+  margin-top: 62px;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  font-weight: 100;
+  font-style: oblique; 
+}
+
+
+
+.header5{
+  margin-left: -2440px;
+  margin-top: 62px;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  font-weight: 100;
+  font-style: oblique; 
+}
+
+.header6{
+  margin-left: -2512px;
+  margin-top: 769px;
+  font-size: xx-large;
+  text-align: center;
+  color: black;
+  font-weight: 100;
+  font-style: oblique; 
+  height: 25px;
 }
