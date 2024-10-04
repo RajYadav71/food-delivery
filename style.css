@@ -120,8 +120,11 @@ h4 {
   height: 41px;
   margin-top: 15px;
   margin-left: 171px;
+  cursor: pointer;
 }
-
+.hunger:hover {
+  background-color: rgb(235, 96, 53);
+}
 .snack {
   margin-top: -292px;
   margin-left: 1165px;
@@ -147,7 +150,7 @@ h4 {
 
 .service {
   width: 1916px;
-  height: 100vh;
+  height: 108vh;
   margin-top: -59px;
   background-image: url(servicebg.jpg);
   background-size: cover;
@@ -157,7 +160,7 @@ h4 {
 .s1 {
   font-weight: 100px;
   font-size: xx-large;
-  margin-top: -908px;
+  margin-top: -999px;
   margin-left: 20px;
 }
 
@@ -179,11 +182,30 @@ h4 {
 .provide {
   font-size: xx-large;
   align-items: center;
-  margin-top: 8px;
   font-weight: 100px;
-  margin-left: 11px;
+  cursor: pointer;
+  width: 361px;
+  height: 72px;
+  border-radius: 24px;
+  margin-left: 12px;
+  margin-top: 9px;
+  cursor: pointer;
+  transition: service 0.3s ease;
 }
-button {
+.boxes {
+  box-sizing: border-box;
+  border: 2px solid black;
+  width: 250px;
+  height: 52px;
+  margin-left: 865px;
+  margin-top: 6px;
+  background-color: bisque;
+}
+
+.boxes:hover {
+  background-color: rgb(238, 67, 67);
+}
+/* .provide {
   width: 361px;
   height: 72px;
   border-radius: 24px;
@@ -192,7 +214,7 @@ button {
   cursor: pointer;
   transition: service 0.3s ease;
   background-color: rgb(97, 187, 223);
-}
+} */
 .provide:hover {
   color: yellow;
 }
@@ -281,14 +303,18 @@ button {
 }
 
 .pen {
-  margin-top: 25px;
-  margin-left: 25px;
-  width: 150px;
-  height: 150px;
+  margin-top: 67px;
+  margin-left: 853px;
+  width: 259px;
+  height: 55px;
+  box-sizing: border-box;
+  border: 1px solid black;
+  background-color: cornsilk;
+  cursor: pointer;
 }
 
-.cap {
-  border: 3px solid black;
+.pen:hover {
+  background-color: crimson;
 }
 
 .ink {
@@ -296,6 +322,11 @@ button {
   font-style: normal;
   margin-top: 3px;
   margin-left: 25px;
+  cursor: pointer;
+}
+
+.ink:hover {
+  color: aliceblue;
 }
 
 /* /* .kfclogo{
@@ -324,7 +355,7 @@ button {
 } */
 .logos {
   margin-left: 10px;
-  margin-top: -125px;
+  margin-top: -39px;
   display: flex;
 }
 .kfclogo {
@@ -420,7 +451,7 @@ button {
   font-size: xx-large;
   text-align: center;
   margin-left: -1355px;
-  margin-top: -875px;
+  margin-top: -850px;
   color: black;
   font-weight: 100;
   font-style: oblique;
@@ -456,8 +487,8 @@ button {
 }
 
 .header5 {
-  margin-left: -2440px;
-  margin-top: 62px;
+  margin-left: -1887px;
+  margin-top: 245px;
   font-size: xx-large;
   text-align: center;
   color: black;
@@ -645,25 +676,27 @@ button {
 }
 
 .menubg {
-  width: 1919px;
+  width: 1915px;
   height: 956px;
   margin-top: 25px;
   background-color: black;
   margin: 1px;
 }
 
- /* .head{
+.head {
   margin-top: 10px;
   margin-left: 10px;
- 
- } 
+}
 
-.azx{
-  margin-top: 10px;
-  margin-left: 10px;
-  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  font-size: x-large;
-} */
+.azx {
+  margin-top: 36px;
+  margin-left: 881px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: xx-large;
+  color: aliceblue;
+  position: absolute;
+}
 
 .samo {
   width: 253px;
@@ -671,6 +704,10 @@ button {
   margin-left: 45px;
   margin-top: 25px;
   border-radius: 50%;
+  cursor: pointer;
+}
+.menu1s:hover {
+  background-color: rgb(236, 46, 62);
 }
 
 .menu1s {
@@ -707,8 +744,11 @@ button {
   margin-left: 45px;
   margin-top: 25px;
   border-radius: 50%;
+  cursor: pointer;
 }
-
+.menu2s:hover {
+  background-color: rgb(20, 85, 20);
+}
 .menu2s {
   box-sizing: border-box;
   border: 1px solid black;
@@ -743,8 +783,11 @@ button {
   margin-left: 45px;
   margin-top: 25px;
   border-radius: 50%;
+  cursor: pointer;
 }
-
+.menu3s:hover {
+  background-color: rgb(102, 113, 218);
+}
 .menu3s {
   box-sizing: border-box;
   border: 1px solid black;
@@ -759,7 +802,7 @@ button {
 
 .nm3 {
   margin-top: -2px;
-  margin-left: 98px;
+  margin-left: 81px;
   font-size: x-large;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -773,12 +816,17 @@ button {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
-.ff{
+.ff {
   width: 253px;
   height: 181px;
   margin-left: 45px;
   margin-top: 25px;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.menu4s:hover {
+  background-color: rgb(207, 231, 71);
 }
 
 .menu4s {
@@ -815,8 +863,11 @@ button {
   margin-left: 45px;
   margin-top: 25px;
   border-radius: 50%;
+  cursor: pointer;
 }
-
+.menu5s:hover {
+  background-color: rgb(236, 172, 241);
+}
 .menu5s {
   box-sizing: border-box;
   border: 1px solid black;
@@ -831,7 +882,7 @@ button {
 
 .nm5 {
   margin-top: -2px;
-  margin-left: 113px;
+  margin-left: 116px;
   font-size: x-large;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -851,6 +902,11 @@ button {
   margin-left: 45px;
   margin-top: 25px;
   border-radius: 50%;
+  cursor: pointer;
+}
+
+.menu6s:hover {
+  background-color: rgb(72, 230, 208);
 }
 
 .menu6s {
@@ -867,7 +923,7 @@ button {
 
 .nm6 {
   margin-top: -2px;
-  margin-left: 98px;
+  margin-left: 81px;
   font-size: x-large;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
@@ -887,6 +943,10 @@ button {
   margin-left: 45px;
   margin-top: 25px;
   border-radius: 50%;
+  cursor: pointer;
+}
+.menu7s:hover {
+  background-color: rgb(255, 154, 114);
 }
 
 .menu7s {
@@ -923,8 +983,12 @@ button {
   margin-left: 45px;
   margin-top: 25px;
   border-radius: 50%;
+  cursor: pointer;
 }
 
+.menu8s:hover {
+  background-color: rgb(202, 73, 138);
+}
 .menu8s {
   box-sizing: border-box;
   border: 1px solid black;
@@ -939,7 +1003,7 @@ button {
 
 .nm8 {
   margin-top: -2px;
-  margin-left: 115px;
+  margin-left: 84px;
   font-size: x-large;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
